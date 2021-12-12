@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$text = "\xE0";
+echo utf8_encode($text);
+?>
+
+</body>
+</html>
